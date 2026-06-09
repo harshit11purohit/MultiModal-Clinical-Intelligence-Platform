@@ -1,0 +1,25 @@
+[2024-06-09 17:07:59,897] 16 root - INFO - downloading embedding
+[2024-06-09 17:08:08,097] 189 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[2024-06-09 17:08:08,098] 197 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2024-06-09 17:08:15,153] 18 root - INFO - embedding downloaded
+[2024-06-09 17:08:15,157] 35 root - INFO - 1
+[2024-06-09 17:08:18,109] 45 root - INFO - 2
+[2024-06-09 17:08:18,112] 52 root - INFO - 3
+[2024-06-09 17:08:18,142] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-06-09 17:08:18,151] 97 werkzeug - INFO -  * Debugger PIN: 159-667-643
+[2024-06-09 17:08:21,769] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2024 17:08:21] "GET / HTTP/1.1" 200 -
+[2024-06-09 17:08:22,269] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2024 17:08:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-06-09 17:08:40,092] 399 ctransformers - WARNING - Number of tokens (1003) exceeded maximum context length (512).
+[2024-06-09 17:34:51,927] 399 ctransformers - WARNING - Number of tokens (1004) exceeded maximum context length (512).
+[2024-06-09 17:35:03,219] 399 ctransformers - WARNING - Number of tokens (1005) exceeded maximum context length (512).
+[2024-06-09 17:35:14,817] 399 ctransformers - WARNING - Number of tokens (1006) exceeded maximum context length (512).
+[2024-06-09 17:35:27,307] 399 ctransformers - WARNING - Number of tokens (1007) exceeded maximum context length (512).
+[2024-06-09 17:35:40,166] 399 ctransformers - WARNING - Number of tokens (1008) exceeded maximum context length (512).
+[2024-06-09 17:35:52,687] 399 ctransformers - WARNING - Number of tokens (1009) exceeded maximum context length (512).
+[2024-06-09 17:36:03,380] 399 ctransformers - WARNING - Number of tokens (1010) exceeded maximum context length (512).
+[2024-06-09 17:36:15,110] 399 ctransformers - WARNING - Number of tokens (1011) exceeded maximum context length (512).
+[2024-06-09 17:36:26,142] 399 ctransformers - WARNING - Number of tokens (1012) exceeded maximum context length (512).
+[2024-06-09 17:36:38,376] 399 ctransformers - WARNING - Number of tokens (1013) exceeded maximum context length (512).
+[2024-06-09 17:36:49,786] 399 ctransformers - WARNING - Number of tokens (1014) exceeded maximum context length (512).
+[2024-06-09 17:37:01,649] 399 ctransformers - WARNING - Number of tokens (1015) exceeded maximum context length (512).
+[2024-06-09 17:37:13,316] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2024 17:37:13] "POST /get HTTP/1.1" 200 -

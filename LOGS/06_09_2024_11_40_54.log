@@ -1,0 +1,13 @@
+[2024-06-09 11:40:56,436] 26 root - INFO - fetching the data
+[2024-06-09 11:40:56,436] 8 root - INFO - LOADING PDF FILE
+[2024-06-09 11:41:35,896] 11 root - INFO - file read successfully
+[2024-06-09 11:41:35,896] 16 root - INFO - downloading embedding
+[2024-06-09 11:41:49,300] 189 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[2024-06-09 11:41:49,300] 197 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2024-06-09 11:42:50,177] 18 root - INFO - embedding downloaded
+[2024-06-09 11:42:50,177] 29 root - INFO - collecting information
+[2024-06-09 11:42:50,177] 34 root - INFO - collecting index information
+[2024-06-09 11:42:50,896] 39 root - INFO - creating index
+[2024-06-09 11:43:09,805] 60 root - INFO - creating chunks
+[2024-06-09 11:43:09,805] 79 root - INFO - storing data on pinecone database
+[2024-06-09 11:49:56,392] 111 root - INFO - data has been stored in pinecone db

@@ -1,0 +1,7 @@
+[2024-06-09 16:38:29,268] 16 root - INFO - downloading embedding
+[2024-06-09 16:38:36,677] 189 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[2024-06-09 16:38:36,677] 197 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2024-06-09 16:38:42,191] 18 root - INFO - embedding downloaded
+[2024-06-09 16:38:42,195] 35 root - INFO - 1
+[2024-06-09 16:38:44,501] 45 root - INFO - 2
+[2024-06-09 16:38:44,501] 52 root - INFO - 3

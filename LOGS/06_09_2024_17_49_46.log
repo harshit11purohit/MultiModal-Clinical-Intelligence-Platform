@@ -1,0 +1,29 @@
+[2024-06-09 17:49:50,464] 16 root - INFO - downloading embedding
+[2024-06-09 17:50:00,626] 189 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[2024-06-09 17:50:00,626] 197 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2024-06-09 17:50:05,255] 18 root - INFO - embedding downloaded
+[2024-06-09 17:50:05,259] 36 root - INFO - 1
+[2024-06-09 17:50:06,639] 47 root - INFO - 2
+[2024-06-09 17:50:06,641] 54 root - INFO - 3
+[2024-06-09 17:50:06,665] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-06-09 17:50:06,674] 97 werkzeug - INFO -  * Debugger PIN: 159-667-643
+[2024-06-09 17:50:10,544] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2024 17:50:10] "GET / HTTP/1.1" 200 -
+[2024-06-09 17:50:11,030] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2024 17:50:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-06-09 17:50:28,370] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-09 17:50:28,395] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2024 17:50:28] "POST /get HTTP/1.1" 200 -
+[2024-06-09 17:51:45,893] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-09 17:51:45,897] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2024 17:51:45] "POST /get HTTP/1.1" 200 -
+[2024-06-09 17:52:06,801] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-09 17:52:06,801] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2024 17:52:06] "POST /get HTTP/1.1" 200 -
+[2024-06-09 17:52:32,698] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-09 17:52:32,698] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2024 17:52:32] "POST /get HTTP/1.1" 200 -
+[2024-06-09 17:52:53,150] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-09 17:52:53,154] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2024 17:52:53] "POST /get HTTP/1.1" 200 -
+[2024-06-09 17:53:18,668] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2024 17:53:18] "GET / HTTP/1.1" 200 -
+[2024-06-09 17:53:18,836] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2024 17:53:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2024-06-09 17:53:25,052] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-09 17:53:25,055] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2024 17:53:25] "POST /get HTTP/1.1" 200 -
+[2024-06-09 17:53:35,795] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-09 17:53:35,795] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2024 17:53:35] "POST /get HTTP/1.1" 200 -
+[2024-06-09 17:53:49,211] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-06-09 17:53:49,229] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jun/2024 17:53:49] "POST /get HTTP/1.1" 200 -
