@@ -1,3 +1,28 @@
-menv
-model
+# Virtual Environments
+env/
+venv/
+ENV/
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Project Logs
+LOGS/
+*.log
+
+# Environment variables / Credentials
 .env
+
+# Data and Local Models/Weights
+data/
+bm25_values.json
+*.json
+*.pdf
+
+# Build and Packaging directories
+*.egg-info/
+build/
+dist/

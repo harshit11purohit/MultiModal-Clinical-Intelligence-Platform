@@ -1,9 +1,26 @@
-ctransformers
-sentence-transformers
-pinecone-client
-langchain
-langchain-community
 flask
-pypdf
 python-dotenv
--e .
+
+pinecone>=5.4.0,<6.0.0
+pinecone-text
+
+langchain>=1.0.0
+langchain-community
+langchain-core>=0.3.34,<1.0.0
+langchain-text-splitters
+langchain-pinecone==0.2.3
+langchain-openai==0.3.26
+langchain-groq
+langchain-huggingface
+
+sentence-transformers>=3.0.0
+transformers
+torch
+
+pypdf
+tiktoken
+
+rank-bm25
+
+# Can remove later if you're no longer using local GGUF models
+ctransformers
