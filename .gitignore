@@ -26,3 +26,25 @@ bm25_values.json
 *.egg-info/
 build/
 dist/
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+.env
+
+# Cache & Data
+bm25_docs_cache.pkl
+*.log
+
+# Frontend (Node Modules)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Archives & OS files
+*.zip
+.DS_Store
+Thumbs.db
