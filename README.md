@@ -9,7 +9,7 @@
 [![Groq](https://img.shields.io/badge/Groq-LLaMA_3.1-F55036)](https://groq.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 
-**[Live Demo](#) · [Video Walkthrough](#) · [API Docs](#-api-reference)**
+**[🔗 Live Demo](https://REPLACE-WITH-YOUR-RENDER-FRONTEND-URL.onrender.com) · [Video Walkthrough](#) · [API Docs](#-api-reference)**
 
 ---
 
@@ -139,22 +139,7 @@ npm run dev
 ```
 Dashboard boots on `http://localhost:5173` (already whitelisted in the Flask CORS config).
 
-## 📂 Project Structure
 
-```
-├── app.py                # Flask API — routes, RAG pipeline, guardrails
-├── setup_database.py     # One-time index/database initialization
-├── setup.py               # Packaging config
-├── requirements.txt
-├── src/                   # Core RAG logic (embeddings, utils)
-├── frontend/              # React + Vite + Tailwind clinical dashboard
-│   ├── public/
-│   ├── src/
-│   └── vite.config.js
-├── templates/             # Server-rendered assets (if any)
-├── data/                  # Source documents for initial ingestion
-└── LOGS/                  # Runtime logs
-```
 
 
 
