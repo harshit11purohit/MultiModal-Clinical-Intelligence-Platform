@@ -9,7 +9,7 @@
 [![Groq](https://img.shields.io/badge/Groq-LLaMA_3.1-F55036)](https://groq.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 
-**[🔗 Live Demo](https://REPLACE-WITH-YOUR-RENDER-FRONTEND-URL.onrender.com) · [Video Walkthrough](#) · [API Docs](#-api-reference)**
+**[🔗 Live Demo][![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/harshit11purohit/Medical_Chatbot_using_Llama2-2)
 
 ---
 
