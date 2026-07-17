@@ -1,0 +1,20 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    env_file: .env
+    volumes:
+      - ./backend/data:/app/data
+      - ./backend/LOGS:/app/LOGS
+      - hf-cache:/root/.cache/huggingface   # NEW — persists downloaded models across restarts/rebuilds
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  hf-cache:   # NEW — declare the named volume
